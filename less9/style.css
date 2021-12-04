@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 500px;
+    margin: 0 auto;
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: blue;
+    color: bisque;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    display: flex;
+}
+
+.menu{
+    list-style-type: none;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu>li {
+    background-color: red;
+    color: bisque;
+    padding: 15px;
+}
+
+@media screen and (max-width: 320px){
+
+   .header {
+       justify-content: center;
+   }
+
+   .logo {background: red;
+   }
+}
+
+
+
+
