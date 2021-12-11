@@ -1,0 +1,52 @@
+{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ {
+    
+.box {
+     width: 200px;
+     height: 100px;
+     background-color: gray;
+     border: 1px solid black;
+     text-align: center;
+     line-height: 100px;
+     margin-bottom: 10px;
+}
+
+.box1 {
+    position: static;
+    left: 5px;
+}
+.box2 {
+    position: relative;
+    top: 18px;
+    left: 70px;
+    bottom: 1px;
+}
+
+.box3 {
+    position: absolute;
+    top: 35px;
+    left: 80%;
+}
+
+.box4 {
+    position: fixed;
+    top: 35px;
+    left: 70%;
+    background-color: red;
+}
+
+
+
+
+    
+    
+
+
+
+     
+   
+
